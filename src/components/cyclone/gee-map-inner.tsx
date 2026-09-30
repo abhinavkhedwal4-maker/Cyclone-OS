@@ -25,11 +25,11 @@ export function GeeMapInner({ geeTileUrl }: { geeTileUrl: string }) {
         attributionControl
         className="h-full w-full"
       >
-        {/* OpenStreetMap standard tiles — zero API key, zero watermark */}
+        {/* CARTO Dark Matter — free public CDN, no API key required */}
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          subdomains="abc"
+          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+          subdomains="abcd"
           maxZoom={19}
         />
         {/* GEE Sentinel-1 overlay */}
