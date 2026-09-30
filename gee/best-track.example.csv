@@ -1,0 +1,2 @@
+region_id,name,recorded_at,wind_kmh,pressure_hpa,heading_deg,movement_kmh,eta_hours,confidence,rainfall_mm
+kakinada-in,Cyclonic Storm 03B,2026-09-29T12:40:00Z,185,944,298,14,9,0.86,320

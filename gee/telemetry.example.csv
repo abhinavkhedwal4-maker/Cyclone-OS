@@ -1,0 +1,4 @@
+region_id,reading_type,value,unit,source
+kakinada-in,rainfall,320,mm,GPM IMERG
+kakinada-in,flood_frac,0.18,1,Sentinel-1
+kakinada-in,elevation_min_m,2.1,m,SRTM
